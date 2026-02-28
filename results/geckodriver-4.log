@@ -1,0 +1,28 @@
+1772279755779	geckodriver	INFO	Listening on 127.0.0.1:56057
+1772279755826	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/Users/anastasiacurumo ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/5j/h6f3f8z94m50xghdyhz82_c40000gn/T/rust_mozprofilesp9SHM"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1772279757178	Marionette	INFO	Marionette enabled
+2026-02-28 11:55:57.574 Firefox GPU Helper[95040:520218] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x5e07, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2026-02-28 11:55:57.595 Firefox GPU Helper[95040:520218] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x110944640 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+1772279757793	Marionette	INFO	Listening on port 56071
+Read port: 56071
+2026-02-28 14:55:57.909 plugin-container[95041:520246] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2026-02-28 14:55:57.909 plugin-container[95041:520246] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2026-02-28 14:55:57.917 plugin-container[95041:520246] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2026-02-28 14:55:57.917 plugin-container[95041:520246] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2026-02-28 14:55:57.917 plugin-container[95041:520248] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2026-02-28 14:55:57.917 plugin-container[95041:520248] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://127.0.0.1:56058
+1772279758037	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2026-02-28 11:56:01.182 plugin-container[95047:520458] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2026-02-28 11:56:01.183 plugin-container[95047:520458] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2026-02-28 11:56:01.215 plugin-container[95047:520458] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2026-02-28 11:56:01.215 plugin-container[95047:520458] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2026-02-28 11:56:01.216 plugin-container[95047:520479] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2026-02-28 11:56:01.216 plugin-container[95047:520479] nil host used in call to allowsAnyHTTPSCertificateForHost:
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 4448: TypeError: can't access property "closedGroups", winData is undefined
+1772279847681	Marionette	INFO	Stopped listening on port 56071
+JavaScript error: resource://gre/modules/PrivateBrowsingUtils.sys.mjs, line 19: TypeError: can't access property "isChromeWindow", aWindow is null
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.

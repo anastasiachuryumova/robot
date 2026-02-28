@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.10.19 on darwin)" generated="2026-02-28T15:37:14.305046" rpa="false" schemaversion="5">
+<suite id="s1" name="Robot" source="/Users/anastasiacurumova/Desktop/robot">
+<suite id="s1-s1" name="Tests" source="/Users/anastasiacurumova/Desktop/robot/tests">
+<suite id="s1-s1-s1" name="First" source="/Users/anastasiacurumova/Desktop/robot/tests/first.robot">
+<test id="s1-s1-s1-t1" name="First Test Case" line="2">
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-02-28T15:37:14.459216" level="INFO">Hello world</msg>
+<arg>Hello world</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-02-28T15:37:14.455181" elapsed="0.005268"/>
+</kw>
+<status status="PASS" start="2026-02-28T15:37:14.442453" elapsed="0.019865"/>
+</test>
+<status status="PASS" start="2026-02-28T15:37:14.430507" elapsed="0.044306"/>
+</suite>
+<suite id="s1-s1-s2" name="Second" source="/Users/anastasiacurumova/Desktop/robot/tests/second.robot">
+<test id="s1-s1-s2-t1" name="Valid Login" line="12">
+<kw name="Open Browser To Login Page">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-02-28T15:37:15.088268" level="INFO">Opening browser 'Firefox' to base url 'http://uitestingplayground.com/sampleapp'.</msg>
+<arg>${Login-Url}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-02-28T15:37:15.087663" elapsed="7.254974"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2026-02-28T15:37:22.357230" level="INFO">Page title is 'Sample App'.</msg>
+<arg>Sample App</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2026-02-28T15:37:22.344290" elapsed="0.013817"/>
+</kw>
+<status status="PASS" start="2026-02-28T15:37:15.086033" elapsed="7.273434"/>
+</kw>
+<kw name="Type In Username">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-02-28T15:37:22.364297" level="INFO">Typing text 'demo' into text field 'name=UserName'.</msg>
+<arg>name=UserName</arg>
+<arg>${username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-28T15:37:22.363147" elapsed="0.215685"/>
+</kw>
+<arg>demo</arg>
+<status status="PASS" start="2026-02-28T15:37:22.361506" elapsed="0.217801"/>
+</kw>
+<kw name="Type In Password">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-02-28T15:37:22.582674" level="INFO">Typing text 'pwd' into text field 'name=Password'.</msg>
+<arg>name=Password</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-28T15:37:22.581504" elapsed="0.304758"/>
+</kw>
+<arg>pwd</arg>
+<status status="PASS" start="2026-02-28T15:37:22.580154" elapsed="0.306705"/>
+</kw>
+<kw name="Submit Credentials">
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-02-28T15:37:22.889845" level="INFO">Clicking button 'id=login'.</msg>
+<arg>id=login</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-28T15:37:22.889064" elapsed="0.391831"/>
+</kw>
+<status status="PASS" start="2026-02-28T15:37:22.887844" elapsed="0.393442"/>
+</kw>
+<kw name="Welcome Page Should Be Open">
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2026-02-28T15:37:23.289994" level="INFO">Page title is 'Sample App'.</msg>
+<arg>Sample App</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2026-02-28T15:37:23.283192" elapsed="0.007595"/>
+</kw>
+<status status="PASS" start="2026-02-28T15:37:23.281965" elapsed="0.009609"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-02-28T15:37:23.292675" elapsed="1.244390"/>
+</kw>
+<status status="PASS" start="2026-02-28T15:37:15.070891" elapsed="9.466864"/>
+</test>
+<status status="PASS" start="2026-02-28T15:37:14.486622" elapsed="10.059014"/>
+</suite>
+<status status="PASS" start="2026-02-28T15:37:14.419479" elapsed="10.140412"/>
+</suite>
+<status status="PASS" start="2026-02-28T15:37:14.326319" elapsed="10.249609"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Robot" id="s1" pass="2" fail="0" skip="0">Robot</stat>
+<stat name="Tests" id="s1-s1" pass="2" fail="0" skip="0">Robot.Tests</stat>
+<stat name="First" id="s1-s1-s1" pass="1" fail="0" skip="0">Robot.Tests.First</stat>
+<stat name="Second" id="s1-s1-s2" pass="1" fail="0" skip="0">Robot.Tests.Second</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

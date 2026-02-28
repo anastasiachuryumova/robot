@@ -1,0 +1,27 @@
+1772282235448	geckodriver	INFO	Listening on 127.0.0.1:62439
+1772282235474	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/Users/anastasiacurumo ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/5j/h6f3f8z94m50xghdyhz82_c40000gn/T/rust_mozprofilefoMp9K"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1772282237497	Marionette	INFO	Marionette enabled
+2026-02-28 12:37:17.834 Firefox GPU Helper[95968:536589] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x5b0b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2026-02-28 12:37:17.848 Firefox GPU Helper[95968:536589] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=257 "The file “com.apple.ViewBridge.plist” couldn’t be opened because you don’t have permission to view it." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x114d3c4c0 {Error Domain=NSPOSIXErrorDomain Code=1 "Operation not permitted"}}
+1772282238010	Marionette	INFO	Listening on port 62448
+Read port: 62448
+2026-02-28 15:37:18.104 plugin-container[95969:536614] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2026-02-28 15:37:18.105 plugin-container[95969:536614] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2026-02-28 15:37:18.114 plugin-container[95969:536614] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2026-02-28 15:37:18.114 plugin-container[95969:536614] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2026-02-28 15:37:18.114 plugin-container[95969:536623] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2026-02-28 15:37:18.114 plugin-container[95969:536623] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://127.0.0.1:62440
+1772282238257	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2026-02-28 12:37:21.422 plugin-container[95975:536819] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2026-02-28 12:37:21.422 plugin-container[95975:536819] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2026-02-28 12:37:21.431 plugin-container[95975:536819] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2026-02-28 12:37:21.431 plugin-container[95975:536819] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2026-02-28 12:37:21.432 plugin-container[95975:536857] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2026-02-28 12:37:21.433 plugin-container[95975:536857] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1772282243299	Marionette	INFO	Stopped listening on port 62448
+console.error: Translations: "Failed to run language detection." (new AbortError("Actor 'Translations' destroyed before query 'Translations:GetDocumentElementLang' was resolved", (void 0)))
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.

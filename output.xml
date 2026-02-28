@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.10.19 on darwin)" generated="2026-02-28T14:12:49.968710" rpa="false" schemaversion="5">
+<suite id="s1" name="Second" source="/Users/anastasiacurumova/Desktop/robot/tests/second.robot">
+<test id="s1-t1" name="Valid Login" line="10">
+<kw name="Open Browser To Login Page">
+<kw name="Open Browser ${Login-Url}">
+<msg time="2026-02-28T14:12:50.601117" level="FAIL">No keyword with name 'Open Browser ${Login-Url}' found. Did you try using keyword 'SeleniumLibrary.Open Browser' and forgot to use enough whitespace between keyword and arguments?</msg>
+<arg>${Browser}</arg>
+<status status="FAIL" start="2026-02-28T14:12:50.601035" elapsed="0.000169">No keyword with name 'Open Browser ${Login-Url}' found. Did you try using keyword 'SeleniumLibrary.Open Browser' and forgot to use enough whitespace between keyword and arguments?</status>
+</kw>
+<status status="FAIL" start="2026-02-28T14:12:50.596952" elapsed="0.004467">No keyword with name 'Open Browser ${Login-Url}' found. Did you try using keyword 'SeleniumLibrary.Open Browser' and forgot to use enough whitespace between keyword and arguments?</status>
+</kw>
+<kw name="Type In Username">
+<arg>demo</arg>
+<status status="NOT RUN" start="2026-02-28T14:12:50.601740" elapsed="0.000067"/>
+</kw>
+<kw name="Type In Password">
+<arg>pass-word</arg>
+<status status="NOT RUN" start="2026-02-28T14:12:50.604559" elapsed="0.000095"/>
+</kw>
+<kw name="Submit Credentials">
+<status status="NOT RUN" start="2026-02-28T14:12:50.605189" elapsed="0.000066"/>
+</kw>
+<kw name="Welcome Page Should Be Open">
+<status status="NOT RUN" start="2026-02-28T14:12:50.605666" elapsed="0.000060"/>
+</kw>
+<kw name="[Teardown] Close Browser">
+<status status="NOT RUN" start="2026-02-28T14:12:50.606114" elapsed="0.000075"/>
+</kw>
+<status status="FAIL" start="2026-02-28T14:12:50.595839" elapsed="0.010890">No keyword with name 'Open Browser ${Login-Url}' found. Did you try using keyword 'SeleniumLibrary.Open Browser' and forgot to use enough whitespace between keyword and arguments?</status>
+</test>
+<status status="FAIL" start="2026-02-28T14:12:49.972779" elapsed="0.636311"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Second" id="s1" pass="0" fail="1" skip="0">Second</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-02-28T14:12:49.973131" level="ERROR">Error in file '/Users/anastasiacurumova/Desktop/robot/tests/second.robot' on line 6: Setting variable '${Login-Url} http://uitestingplayground.com/sampleapp.' failed: Invalid variable name '${Login-Url} http://uitestingplayground.com/sampleapp.'.</msg>
+<msg time="2026-02-28T14:12:49.973469" level="ERROR">Error in file '/Users/anastasiacurumova/Desktop/robot/tests/second.robot' on line 7: Setting variable '${Browser} Firefox' failed: Invalid variable name '${Browser} Firefox'.</msg>
+</errors>
+</robot>
